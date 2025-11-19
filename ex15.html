@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Currículum Vitae - Iker Camarena</title>
+  <style>
+    /* Estil general de la pàgina */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Capçalera */
+    header {
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    /* Menú de navegació */
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #ecf0f1;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Contenidor principal */
+    article {
+      max-width: 900px;
+      margin: 20px auto;
+      background: #ffffff;
+      padding: 20px 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    /* Foto de perfil */
+    article img {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid #2c3e50;
+    }
+
+    /* Seccions del currículum */
+    section {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    ul, ol {
+      margin-top: 5px;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    strong {
+      color: #2c3e50;
+    }
+
+    /* Peu de pàgina */
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background: #2c3e50;
+      color: #ecf0f1;
+      font-size: 0.9rem;
+      margin-top: 20px;
+    }
+
+    /* Enllaços dins del contingut (si n’hi haguera) */
+    a {
+      color: #2980b9;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsiu per a pantalles xicotetes */
+    @media (max-width: 700px) {
+      article {
+        padding: 20px;
+      }
+
+      article img {
+        position: static;
+        display: block;
+        margin: 0 auto 15px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- CAPÇALERA -->
+  <header>
+    <h1>Currículum Vitae</h1>
+    <nav>
+      <ul>
+        <li><a href="#dades-personals">Dades personals</a></li>
+        <li><a href="#formacio">Formació acadèmica</a></li>
+        <li><a href="#experiencia">Experiència professional</a></li>
+        <li><a href="#competencies">Competències</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTINGUT PRINCIPAL -->
+  <article>
+
+    <img src="Jordi.png" alt="Foto personal">
+
+    <section id="dades-personals">
+      <h2>Dades personals</h2>
+      <ul>
+        <li><strong>Nom:</strong> Iker Camarena</li>
+        <li><strong>Adreça:</strong> Carrer Açí, Ciutat allà</li>
+        <li><strong>Telèfon:</strong> 666 666 666</li>
+        <li><strong>Correu:</strong> <a href="mailto:ikzeta.iker@gmail.com">ikzeta.iker@gmail.com</a></li>
+      </ul>
+    </section>
+
+    <section id="formacio">
+      <h2>Formació acadèmica</h2>
+      <ul>
+        <li>Batxillerat Científic – Centre Paquistaní Martinez (2022–2024)</li>
+        <li>ESO – Institut Desengaño 21 (2018–2022)</li>
+      </ul>
+    </section>
+
+    <section id="experiencia">
+      <h2>Experiència professional</h2>
+      <ol>
+        <li>Pràctiques en empresa – Cacahuetes Jimenez</li>
+        <li>Treball temporal – Guadalajara</li>
+      </ol>
+    </section>
+
+    <section id="competencies">
+      <h2>Competències</h2>
+      <ul>
+        <li>Treball en equip</li>
+        <li>Responsabilitat</li>
+        <li>Organització</li>
+      </ul>
+    </section>
+
+  </article>
+
+  <!-- PEU DE PÀGINA -->
+  <footer>
+    <p>Autor: Iker Camarena – 2025</p>
+  </footer>
+
+</body>
+</html>

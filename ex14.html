@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Horari del curs 2024-25</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid #000;
+      padding: 8px;
+      text-align: center;
+    }
+
+    thead {
+      background-color: #ddd;
+    }
+
+    .franja {
+      font-weight: bold;
+      background-color: #f0f0f0;
+    }
+
+    .pati {
+      background-color: #ffeaa7;
+      font-weight: bold;
+    }
+
+    /* 🎨 COLORS PER A CADA MÒDUL */
+    .lmi { background-color: #d4e6f1; }
+    .pi { background-color: #f9e79f; }
+    .si { background-color: #fadbd8; }
+    .prg { background-color: #d5f5e3; }
+    .ang { background-color: #f5cba7; }
+    .edd { background-color: #e8daef; }
+    .bd { background-color: #fcf3cf; }
+    .ipo { background-color: #d6eaf8; }
+
+  </style>
+</head>
+<body>
+  <h1>Horari del curs 2024-25</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="franja">Hora</th>
+        <th>Dilluns</th>
+        <th>Dimarts</th>
+        <th>Dimecres</th>
+        <th>Dijous</th>
+        <th>Divendres</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="franja">8:00 - 8:55</td>
+        <td class="lmi">LMI</td>
+        <td class="pi">PI</td>
+        <td class="si">SI</td>
+        <td class="si">SI</td>
+        <td class="prg">PRG</td>
+      </tr>
+      <tr>
+        <td class="franja">8:55 - 9:50</td>
+        <td class="lmi">LMI</td>
+        <td class="ang">ANG</td>
+        <td class="si">SI</td>
+        <td class="prg">PRG</td>
+        <td class="prg">PRG</td>
+      </tr>
+      <tr>
+        <td class="franja">9:50 - 10:45</td>
+        <td class="si">SI</td>
+        <td class="edd">EDD</td>
+        <td class="prg">PRG</td>
+        <td class="prg">PRG</td>
+        <td class="bd">BD</td>
+      </tr>
+
+      <!-- PATI -->
+      <tr class="pati">
+        <td class="franja">10:45 - 11:15</td>
+        <td colspan="5">PATI</td>
+      </tr>
+
+      <tr>
+        <td class="franja">11:15 - 12:10</td>
+        <td class="si">SI</td>
+        <td class="ipo">IPO-1</td>
+        <td class="prg">PRG</td>
+        <td class="bd">BD</td>
+        <td class="bd">BD</td>
+      </tr>
+      <tr>
+        <td class="franja">12:10 - 13:05</td>
+        <td class="prg">PRG</td>
+        <td class="bd">BD</td>
+        <td class="ang">ANG</td>
+        <td class="ipo">IPO-1</td>
+        <td class="edd">EDD</td>
+      </tr>
+      <tr>
+        <td class="franja">13:05 - 14:00</td>
+        <td class="prg">PRG</td>
+        <td class="bd">BD</td>
+        <td class="lmi">LMI</td>
+        <td class="ipo">IPO-1</td>
+        <td class="edd">EDD</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
